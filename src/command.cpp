@@ -25,6 +25,12 @@ void listTag()
     cout << "Listing tag..." << endl;
 }
 
+void checkTag(char tag[])
+{
+    cout << "Checking tag..." << endl;
+    cout << "Tag: " << tag << endl;
+}
+
 void addTag(char tag[], char target[])
 {
     cout << "Adding tag..." << endl;

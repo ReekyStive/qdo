@@ -10,6 +10,7 @@ struct Messeage
     public:
         const string usage = " is not a tag or a qdo command. See 'qdo --help'.\n";
         const string too_few_parameters = "Too few parameters. You can use:\n\n";
+        const string check_need_tag = "Tag is needed.\nUse 'qdo [-check] <tag>' to check a tag.\n";
         const string delete_need_tag = "Tag is needed.\nUse 'qdo [-del] <tag>' to delete a tag.\n";
         const string add_need_tag = "Tag and target command is needed.\nUse 'qdo [-add] <tag> <command>' to add a tag.\n";
         const string add_need_target = "Target command is needed.\nUse 'qdo [-add] <tag> <command>' to add a tag.\n";

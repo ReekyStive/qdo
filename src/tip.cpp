@@ -10,6 +10,7 @@ enum TipType
     TooFewParameters,
     UserRequestedHelp,
     InvalidSyntax,
+    CheckNeedTag,
     DeleteNeedTag,
     AddNeedTag,
     AddNeedTarget
@@ -34,6 +35,10 @@ void tip(TipType tip_type)
         tip = Messeages.usage;
         break;
 
+    case CheckNeedTag:
+        tip = Messeages.check_need_tag;
+        break;
+    
     case DeleteNeedTag:
         tip = Messeages.delete_need_tag;
         break;
