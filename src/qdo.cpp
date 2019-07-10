@@ -1,6 +1,6 @@
 #include <cstring>
-#include "tip.cpp"
-#include "command.cpp"
+#include "include/tip.cpp"
+#include "include/command.cpp"
 
 using namespace std;
 
