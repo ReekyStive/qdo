@@ -1,11 +1,14 @@
 #include <cstring>
 #include "include/tip.cpp"
 #include "include/command.cpp"
+#include "include/config.cpp"
 
 using namespace std;
 
 int main(int argc, char* argv[])
 {
+    initConfig();
+
     if (argc <= 1)
         tip(TooFewParameters);
     else if (!strcmp(argv[1], "--help"))

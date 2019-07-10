@@ -13,7 +13,10 @@ enum TipType
     CheckNeedTag,
     DeleteNeedTag,
     AddNeedTag,
-    AddNeedTarget
+    AddNeedTarget,
+    ConfigNotExist,
+    CreateSuccess,
+    CreateFailed
 };
 
 void tip(TipType tip_type)
@@ -49,6 +52,18 @@ void tip(TipType tip_type)
 
     case AddNeedTarget:
         tip = Messeages.add_need_target;
+        break;
+
+    case ConfigNotExist:
+        tip = Messeages.config_not_exist;
+        break;
+
+    case CreateSuccess:
+        tip = Messeages.create_success;
+        break;
+    
+    case CreateFailed:
+        tip = Messeages.create_failed;
         break;
 
     default:

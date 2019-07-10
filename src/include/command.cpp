@@ -2,7 +2,15 @@
 #define _COMMAND_CPP_
 
 #include <iostream>
+#include <fstream>
+#include "messeage.hpp"
 #include "tip.cpp"
+#include "config.cpp"
+#include "../run.cpp"
+#include "../list.cpp"
+#include "../check.cpp"
+#include "../add.cpp"
+#include "../del.cpp"
 
 using namespace std;
 
